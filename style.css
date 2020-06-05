@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+.python,.python1,.python2,.Java,.Java1,.Java2,.C,.C1,.C2{
+  border: 1px solid black;
+  background-color: #D3D3D3;
+  margin: 2px;
+  padding: 0px; 
+  width: 80%;
+  height: 350px;
+  font-family: Helvetica;
+  overflow: hidden;
+}
+div{
+  border:1px solid black;
+  width: 70px; 
+  height: 10%;
+  float: right;
+  padding: 10px;
+}
+#one{
+    background-color: #ff0000;
+}
+#two{
+  background-color: #00ff00;
+}
+#three{
+  background-color: #0000ff;
+}
+.row {
+  width: 100%;
+
+}
+@media (min-width: 992px) {
+  .python{
+    width: 33%;
+    float: left;
+
+  }
+  .C{
+    width: 33%;
+    float: left;
+
+  }
+  .Java{
+    width: 33%;
+    float: left;
+  }
+  
+}
+@media (min-width: 767px) and (max-width: 991px) {
+  .python1{
+    width: 48%;
+    float: left;
+  }
+  .C1{
+    width: 48%;
+    float: left;
+
+  }
+  .Java1{
+    width: 100%;
+    float: left;
+  }
+  @media (max-width: 766px) {
+  .python2{
+    width: 100%;
+    float: left;
+  }
+  .C2{
+    width: 100%;
+    float: left;
+
+  }
+  .Java2{
+    width: 100%;
+    float: left;
+  }
+}
+

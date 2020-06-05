@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+h1{
+  text-align:center;
+}
 .python,.python1,.python2,.Java,.Java1,.Java2,.C,.C1,.C2{
   border: 1px solid black;
   background-color: #D3D3D3;

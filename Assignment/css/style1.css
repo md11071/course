@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+}
+
+.head {
+  font-size: 27px;
+  font-family: Georgia serif;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin-bottom: 30px;
+}
+
+p {
+  padding: 25px 5px 5px 5px;
+  font-family: Georgia sans-serif;
+  font-size: 16px;
+  position: relative;
+}
+
+.section { 
+  background-color: rgb(150, 150, 150);
+    border: 2px solid black;
+    margin-top: 10px; 
+    margin-right: 5px;
+    margin-left: 5px; 
+    padding: 3px;
+    text-align: justify;
+    position: relative;
+ }
+
+span {
+  font-size: 20px;
+  width: 150px;
+  border: 1px solid black;
+  font-weight: bold;
+  text-align: center;
+  float: right; top :0; left: 33%; margin: 0;
+  position: absolute;
+}
+#hr1 {
+  background-color: rgb(250, 150, 150);
+}
+#hr2 {
+  background-color: rgb(250, 0, 0);
+  }
+#hr3 {
+  background-color: rgb(200, 200, 100);
+
+}
+}
+
+.row {
+  width: 100%;
+}
+
+/* Desktop PC view */
+
+@media (min-width: 992px) {
+ 
+  .col-lg-4 {
+    width: 33.33%;
+    float: left;
+  }
+}
+
+/* Tablet PC view */
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+  .col-md-6 {
+    width: 50%;
+    float: left;
+  }
+  .col-md-12 {
+    width: 100%;
+    float: left;
+  }
+}
+/* Cell phone view */
+@media (max-width: 767px)  {
+  
+  .col-sx-12 {
+    float: left;
+    width: 100%;
+  }
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #121212;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  line-height: .75;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 {
+    padding-top: 10px;
+    font-size: 5vw; 
+  }
+
+  #collapsable-nav a { 
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { 
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  /* End Header */
+
+}
+ .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+  border: 1px solid white;
+ }
